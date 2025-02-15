@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+    <name>MOD_VIRTUEMART_ZPENDINGORDERS</name>
+    <creationDate>2024-01-30</creationDate>
+    <author>zabba</author>
+    <authorEmail>zabba@quick.cz</authorEmail>
+    <authorUrl>[AUTHOR_URL]</authorUrl>
+    <copyright>[COPYRIGHT]</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>2.0</version>
+    <description>MOD_VIRTUEMART_ZPENDINGORDERS_XML_DESCRIPTION</description>
+     <namespace path="src">Zabba\Module\ZPendingOrders</namespace>
+    <files>
+        <folder module="mod_virtuemart_zpendingorders">services</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+    </files>
+</extension>
